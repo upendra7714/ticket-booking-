@@ -1,0 +1,92 @@
+<!-- app.component.html -->
+<div class="container my-5">
+    <h2>Frequently Asked Questions</h2>
+    <div id="faqAccordion" class="accordion">
+  
+      <!-- FAQ 1 -->
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              What is Angular?
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseOne"
+          class="collapse show"
+          aria-labelledby="headingOne"
+          data-parent="#faqAccordion"
+        >
+          <div class="card-body">
+            Angular is a platform and framework for building single-page client applications using HTML and TypeScript.
+          </div>
+        </div>
+      </div>
+  
+      <!-- FAQ 2 -->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              How does Angular work?
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#faqAccordion"
+        >
+          <div class="card-body">
+            Angular works by using components, services, and dependency injection to create efficient and reusable web applications.
+          </div>
+        </div>
+      </div>
+  
+      <!-- FAQ 3 -->
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              What is TypeScript?
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseThree"
+          class="collapse"
+          aria-labelledby="headingThree"
+          data-parent="#faqAccordion"
+        >
+          <div class="card-body">
+            TypeScript is a superset of JavaScript that compiles to plain JavaScript. It helps in building large-scale applications with type safety.
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  

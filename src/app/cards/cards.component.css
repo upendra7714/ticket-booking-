@@ -1,0 +1,26 @@
+.card{
+    justify-content: center;
+    text-align: center;
+    margin: 0px 20px;
+    box-shadow: 0.8px 0.8px 10px #777;
+    transition: transform 420ms;
+}
+.card:hover{
+    transform: scale(1.08);
+}
+img{
+    
+    object-fit: contain;
+    max-width: 100%;
+}
+h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
